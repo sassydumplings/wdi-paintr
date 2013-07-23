@@ -1,1 +1,13 @@
 %h1 Paintr
+
+#selected_color.box
+
+#color_form
+  = text_field_tag 'color', nil, :autofocus => true
+  = button_tag 'Add color', :id  => 'add_color'
+
+#colors
+
+#canvas
+  - 1000.times do
+    .paint_box
