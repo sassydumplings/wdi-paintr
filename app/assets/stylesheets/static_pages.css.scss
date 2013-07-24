@@ -17,14 +17,15 @@
 }
 
 .paint_box{
-  display: inline-block;
+  float:left;
   width: 10px;
-  height: 10px;
+  height:10px;
   margin:0;
 }
 
-.canvas{
+#canvas{
   width:400px;
+  height:300px;
   border: 1px solid #333;
   overflow:hidden;
 }
